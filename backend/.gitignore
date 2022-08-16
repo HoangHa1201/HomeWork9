@@ -1,0 +1,18 @@
+.env
+*.sqlite3
+*.pyc
+token.txt
+.vscode
+.DS_Store
+
+# Only for Development only
+**/migrations/**
+env/
+media/
+cache/
+dump.rdb
+celerybeat*
+staticfiles
+cert.crt
+cert.key
+staticfiles/*
